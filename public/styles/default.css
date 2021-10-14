@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  height: 95vh;
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.news-section {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  position: relative;
+}
+
+.info h1 {
+  font-size: 4rem;
+}
+
+.world-map {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.info-text {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+
+.about-us .input-group {
+  width: 300px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+.send {
+  font-size: 0.8rem;
+}
+
+.product img {
+  border: 1px solid yellow;
+}
+
+.enquiry-btn {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1;
+  font-size: 0.8rem;
+  opacity: 70%;
+}
+
+.contact-us {
+  padding: 2rem;
+}

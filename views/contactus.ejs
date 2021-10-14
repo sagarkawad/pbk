@@ -1,0 +1,64 @@
+<%- include("header") -%>
+<h1>Contact Us</h1>
+
+<!-- contact us  -->
+<form class="contact-us row g-3">
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">Name</label>
+    <input
+      type="text"
+      class="form-control is-valid"
+      id="validationServer01"
+      required
+    />
+    <div class="valid-feedback">Looks good!</div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer05" class="form-label">Phone Number</label>
+    <input
+      type="tel"
+      class="form-control is-invalid"
+      id="validationServer05"
+      aria-describedby="validationServer05Feedback"
+      required
+    />
+    <div id="validationServer05Feedback" class="invalid-feedback">
+      Please provide a valid Phone no.
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer03" class="form-label">Location</label>
+    <input
+      type="text"
+      class="form-control is-invalid"
+      id="validationServer03"
+      aria-describedby="validationServer03Feedback"
+      required
+    />
+    <div id="validationServer03Feedback" class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer05" class="form-label">Zip</label>
+    <input
+      type="text"
+      class="form-control is-invalid"
+      id="validationServer05"
+      aria-describedby="validationServer05Feedback"
+      required
+    />
+    <div id="validationServer05Feedback" class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="input-group">
+    <span class="input-group-text">Message</span>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+<%- include("footer") -%>

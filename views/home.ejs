@@ -1,0 +1,178 @@
+<%- include("header") -%>
+<!-- Carousel -->
+<div
+  id="carouselExampleCaptions"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imgs/1.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>100% Eco-Friendly</h5>
+        <p>We are here with 100% eco-friendly products.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/2.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>We are pocket-friendly</h5>
+        <p>
+          Not just eco-friendly but we do offer pocket-friendly products as
+          well.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/3.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Best Quality Products</h5>
+        <p>
+          We believe in providing the customers with much more than they pay
+          for.
+        </p>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Cards -->
+<div class="news-section">
+  <!-- facebook -->
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">We are PBK</h5>
+      <p class="card-text">
+        Follow us on FB and get to know about our latest Enginerring Inventions!
+      </p>
+      <a
+        href="https://www.facebook.com/pages/category/Product-Service/PBK-Engineers-102495358210510/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+        >Go to Facebook</a
+      >
+    </div>
+  </div>
+
+  <!-- youtube -->
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://images.pexels.com/photos/371900/pexels-photo-371900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">We are PBK</h5>
+      <p class="card-text">
+        Follow us on YouTube and get to know about our latest Enginerring
+        Inventions!
+      </p>
+      <a
+        href="https://www.youtube.com/channel/UC-DFmu8xDRuoMAWa01drDmQ"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+        >Go to Youtube</a
+      >
+    </div>
+  </div>
+</div>
+
+<!-- credentials -->
+<div class="info">
+  <img
+    src="https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274__480.jpg"
+    class="world-map"
+    alt=""
+  />
+  <div class="info-text">
+    <div class="info-1">
+      <h1>10</h1>
+      <h7>Employees</h7>
+    </div>
+    <div class="info-2">
+      <h1>20</h1>
+      <h7>Dealers</h7>
+    </div>
+    <div class="info-3">
+      <h1>5</h1>
+      <h7>Cities</h7>
+    </div>
+  </div>
+</div>
+
+<!-- About us  -->
+<div class="about-us">
+  <div class="sm-handles"></div>
+
+  <div class="mail-id">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter your mail-id"
+        aria-label="Recipient's username"
+        aria-describedby="button-addon2"
+      />
+      <button
+        class="btn btn-outline-secondary"
+        type="button"
+        id="button-addon2"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+  <div class="logo">PBK Engineers Logo</div>
+  <div class="pvt-ltd">
+    © 2019-2022 PBK Engineers Private Limited. All Rights Reserved.
+  </div>
+</div>
+
+<%- include("footer") -%>
